@@ -1,0 +1,14 @@
+%一般公式的编号和引用
+
+
+%编号
+\begin{equation}
+  X1+X2=Y \label{X1X2}
+\end{equation}
+
+%引用
+\ref{X1X2}
+
+
+%含有子编号的公式编号及引用
+

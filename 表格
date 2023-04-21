@@ -1,0 +1,27 @@
+普通表格
+
+\begin{tabular}{|c|c|c|c|...}
+\hline
+\XX & XX & XX & ... \\
+\hline
+\XX & XX & XX & ... \\
+...
+\hline
+\end{tabular}
+
+
+斜线表头
+
+宏包
+\usepackage{diagbox}
+
+代码
+\begin{tabular}{1|c|c|c|...}
+\hline
+\diagbox{XX}{YY}{ZZ} & XX & XX & ... \\
+\hline
+...
+
+斜线方向
+\diagbox[dir=方向]{AA}{BB}
+NW(西北) NE(东北) SW(西南) SE(东南)
